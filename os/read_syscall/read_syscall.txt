@@ -1,0 +1,7 @@
+NAME
+read- read from a file descriptor
+SYNOPSIS
+	#include <unistd.h>
+	ssize_t read(int fd, void *buf, size_t count);
+DESCRIPTION
+	read() attempts to read up to count bytes from the file descriptor fd into the buffer starting at buf. It returns the number of characters read.
